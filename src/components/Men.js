@@ -31,7 +31,7 @@ function Men() {
               return (
                 <Grid key={shoe.id} item xs={12} md={4} lg={3}>
                     <Link to={`/${keynames}`}>
-                  <Paper className={classes.paper}>
+                  <Paper id = "Men__card" className={classes.paper}>
                     <div className="Men__shoes">
                       <h4 className = "Men__textunderline" >{shoe.name}</h4>
                       <img
